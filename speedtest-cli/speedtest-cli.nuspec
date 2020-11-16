@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>speedtest-cli</id>
+    <version>2.1.2</version>
+    <packageSourceUrl>https://github/com/zverev-iv/choco-speedtest-cli</packageSourceUrl>
+    <owners>zverev-iv</owners>
+    <title>speedtest-cli (Install)</title>
+    <authors>Matt Martz</authors>
+    <projectUrl>https://pypi.org/project/speedtest-cli/</projectUrl>
+    <copyright>2020 Matt Martz</copyright>
+    <licenseUrl>https://raw.githubusercontent.com/sivel/speedtest-cli/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/sivel/speedtest-cli</projectSourceUrl>
+    <docsUrl>https://github.com/sivel/speedtest-cli/wiki</docsUrl>
+    <tags>speedtest-cli speedtest cli python</tags>
+    <summary>Command line interface for testing internet bandwidth using speedtest.net</summary>
+    <description>Command line interface for testing internet bandwidth using speedtest.net </description>
+    <releaseNotes>https://github.com/sivel/speedtest-cli/releases</releaseNotes>
+    <dependencies>
+      <dependency id="python" version="3.4.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
