@@ -1,4 +1,2 @@
 ﻿$ErrorActionPreference = 'Stop';
-pip uninstall -y httpie
-$ErrorActionPreference = 'Stop';
-pip uninstall -y $env:ChocolateyPackageName
+pip uninstall -y $env:ChocolateyPackageName --disable-pip-version-check
